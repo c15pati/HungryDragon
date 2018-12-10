@@ -6,8 +6,8 @@ var stateMain={
        {
            game.scale.forceOrientation(true, false);
        }
-        game.load.spritesheet("dragon","images/main/dragon.png",120,85,4);
-        game.load.image("background","images/main/background.png");
+        game.load.spritesheet("dragon","images/dragon.png",120,85,4);
+        game.load.image("background","images/background.png");
     },
     
     create:function()
